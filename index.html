@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header class="sm:mx-6 lg:mx-16 mt-9">
+    <header class="mx-8 lg:mx-20 mt-9">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -39,7 +39,9 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-3xl font-extrabold">Hockey<span class="text-red-600">’</span>s</a>
+                    <a class="btn btn-ghost text-3xl font-extrabold">Hockey<p class="text-red-600 -ml-1">’</p>
+                        <p class="-ml-2">s</p>
+                    </a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -52,7 +54,7 @@
                 </div>
                 <div class="navbar-end">
                     <img class="pr-4" src="Images/Frame.png" alt="">
-                    <a class="btn btn-error px-6 py-4 text-cyan-50 ">Get Ticket</a>
+                    <a class="btn btn-error px-3 py-2 lg:px-6 lg:py-4 text-cyan-50 ">Get Ticket</a>
                 </div>
             </div>
         </nav>
@@ -61,23 +63,71 @@
 
     <main>
         <!-- Banner Section -->
-        <section class="sm:mx-8 lg:mx-20 mt-10">
-            <div class="banner-img carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img src="Images/1.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide2" class=" carousel-item relative w-full">
-                  <img src="Images/2.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-              </div>
+        <section class="mx-8 lg:mx-20 mt-10">
+            <div class="banner-img carousel lg:w-full">
+                <div id="slide1" class=" carousel-item relative lg:h-fit w-full">
+                    <img src="Images/1.png" class="h-full lg:h-[520px;] w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class=" carousel-item relative w-full ">
+                    <img src="Images/1.png" class="h-full lg:h-[520px;] w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+            </div>
+            <div
+                class="mr-8 pl-0 bg-black text-emerald-50 lg:w-96 lg:h-36 h-32 absolute lg:bottom-12 lg:right-32 rounded-xl ">
+                <div class="px-7 py-6">
+                    <h2 class="text-sm lg:text-lg font-extrabold pb-3">Meet all the heroes from the field</h2>
+                    <p>Meet and Learn about some of the Bible Characters featured in Friends and Heroes.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Professional Hockeys Club -->
+        <section class="mx-8 lg:mx-24 mt-40 lg:mt-20">
+
+            <div class="text-center lg:py-10 sm:pt-10 ">
+                <h1 class="font-extrabold text-3xl pb-5 ">Professional Hockeys Club</h1>
+                <p class="font-normal text-sm ">Enjoy an exciting hockey game as the Utah Grizzlies hold their own at
+                    the Maverik Center in West
+                    Valley City. <br>Find season and ticketing information.</p>
+            </div>
+
+            <div class="lg:flex gap-20 py-10 my-5 justify-center text-center">
+                <div class="lg:mt-0 mt-3">
+                    <div class="radial-progress" style="--value:87; color: crimson;" role="progressbar"><span
+                            class="text-lg font-extrabold">87%</span></div>
+                    <h2 class="font-bold text-lg py-3 ">Prayer Facility</h2>
+                    <p>This enables them to place their on the floor whilst kneeling.
+                    </p>
+                </div>
+                <div class="lg:mt-0 mt-3">
+                    <div class="radial-progress" style="--value:96; color: aqua;" role="progressbar"><span
+                            class="text-lg font-extrabold">95%</span></div>
+                    <h2 class="font-bold text-lg py-3 ">Experienced Coach</h2>
+                    <p>This enables them to place their on the floor whilst kneeling.
+                </div>
+                <div class="lg:mt-0 mt-3">
+                    <div class="radial-progress" style="--value:90; color: coral;" role="progressbar"><span
+                            class="text-lg font-extrabold">90%</span></div>
+                    <h2 class="font-bold text-lg py-3 ">Senior Player</h2>
+                    <p>This enables them to place their on the floor whilst kneeling.
+                </div>
+                <div class="lg:mt-0 mt-3">
+                    <div class="radial-progress" style="--value:80; color: cornflowerblue;" role="progressbar"><span
+                            class="text-lg font-extrabold ">80%</span></div>
+                    <h2 class="font-bold text-lg py-3 ">Training Ground</h2>
+                    <p>This enables them to place their on the floor whilst kneeling.
+                </div>
+            </div>
         </section>
 
     </main>
